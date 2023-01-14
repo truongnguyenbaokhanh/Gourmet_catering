@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+/* Navbar */
+
+header{
+    padding:20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    position: fixed;
+    width: 100%;
+    height: 4%;
+    background-color: white;
+    z-index: 1000000000;
+}
+.button_navbar{
+    border: none;
+    display: flex;
+    cursor: pointer;
+    background-color: white;
+    padding: 10px;
+    transition: all 0.5s;
+}
+.button_navbar:hover{
+    
+    background-color: #ccc;
+}
+.list {
+    margin-left: 60%;
+    display: flex;
+    padding: 10px;
+}
+.list ul{
+    display: flex;
+    list-style: none;
+
+}
+.list ul li a{
+    text-decoration: none;
+    color: black;
+    padding:10px;
+    margin:0 20px 0 0;
+    transition: all 0.5s;
+}
+.list ul li a:hover{
+    
+    background-color: #ccc;
+}
+.navbar{
+    display: flex;
+}
+
+/* Slide */
+
+.slide h1 {
+    color: gray;
+}
+.slide .img_slide img{
+    position: relative;
+    z-index: -999;
+}
+.slide .title_slide h1{
+    position: absolute;
+    bottom: -57px;
+    top: auto;
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+/* About */
+
+.about {
+    margin-top: 100px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+}
+.about_catering{
+    margin: 0 200px;
+    display: flex;
+}
+.content__about {
+    margin-left: 30px;
+}
+.content__about h1 {
+    text-align: center;
+}
+.content__about .first {
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+.content__about p {
+    line-height: 30px;
+}
+
+/* Menu */
+
+.menu{
+    margin-top: 100px;
+}
+.about__menu {
+    margin: 0 200px;
+    display: flex;
+}
+.list_menu {
+    margin-right: 170px;
+}
+.list_menu ul li {
+    margin:50px 0;
+    list-style: none;
+    line-height: 30px;
+}
+
+/* Contact */
+
+.contact{
+    margin-top: 200px;
+}
+
+.form_contact{
+    margin: 0 200px;
+}
+
+.form_contact p {
+    margin: 30px 0;
+}
+.form_contact h3 {
+    color:#1E90FF;
+}
+.input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+input{
+    margin: 30px 0;
+}
+
+.submit{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border: none;
+    width: 150px;
+}
+
+.submit:hover{
+    background-color: #ccc;
+}
